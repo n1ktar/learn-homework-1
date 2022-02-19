@@ -15,7 +15,7 @@
     
 """
 
-questions_and_answers = {}
+questions_and_answers = {"Как дела": "Хорошо!", "Что делаешь?": "Программирую"}
 
 def ask_user(answers_dict):
     """
