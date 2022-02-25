@@ -9,12 +9,21 @@
   и завершала работу при помощи оператора break
     
 """
-
-def hello_user():
-    """
-    Замените pass на ваш код
-    """
-    pass
+i = 0
+for i in range(1):
+  try:
+    def hello_user(feel):
+      while feel != 'Хорошо':
+        feel = input('Как дела?')
     
-if __name__ == "__main__":
-    hello_user()
+    feel = input('Как дела?')
+
+    if __name__ == "__main__":
+      hello_user(feel)
+
+  except KeyboardInterrupt:
+    print("Пока!")
+    break
+  
+
+

@@ -14,7 +14,7 @@ def hello_user(feel):
     """
     Замените pass на ваш код
     """
-    while feel !='Хорошо':
+    while feel != 'Хорошо':
       feel = input('Как дела?')
     
 feel = input('Как дела?')

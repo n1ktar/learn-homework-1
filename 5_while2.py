@@ -17,11 +17,16 @@
 
 questions_and_answers = {"Как дела": "Хорошо!", "Что делаешь?": "Программирую"}
 
-def ask_user(answers_dict):
+def ask_user(question):
     """
     Замените pass на ваш код
     """
-    pass
-    
+    while questions_and_answers.get(question) == None:
+       question = input("Введите вопрос ")
+    print(questions_and_answers.get(question))   
+  
+question = input("Введите вопрос ")
+
 if __name__ == "__main__":
-    ask_user(questions_and_answers)
+    ask_user(question)
+    

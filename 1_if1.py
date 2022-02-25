@@ -25,9 +25,10 @@ def main(age):
       return 'Вы ДОЛЖНЫ РАБОТАТЬ!!!!'
 
 age = int(input('Введите свой возраст'))
-print(activity)
+
 
     
     
 if __name__ == "__main__":
   activity = main(age)
+  print(activity)
